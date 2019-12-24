@@ -6,9 +6,9 @@ class Wave
   int xspacing = 1;   // How far apart should each horizontal location be spaced
   int w;              // Width of entire wave
 
-  float theta = 0.0;  // Start angle at 0
+  float theta = 0.0;  
   float amplitude;  // Height of wave
-  float perd;  // How many pixels before the wave repeats
+  float perd;  
   float dx;  // Value for incrementing X, a function of period and xspacing
   float[] yvalues;  // Using an array to store height values for the wave
   
